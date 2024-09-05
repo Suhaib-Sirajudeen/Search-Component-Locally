@@ -1,0 +1,13 @@
+.main-contianer{
+
+  /* display: flex; */
+  max-width: 600px;
+  width: 100%;
+  height: 500px;
+  /* background-color: blue; */
+}
+.display-contianer{
+  height: 380px;
+  overflow: auto;
+}
+

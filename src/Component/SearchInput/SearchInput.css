@@ -1,0 +1,43 @@
+.SearchInput-contianer{
+  max-width: 600px;
+  width: 100%;
+}
+
+.header{
+  display: flex;
+  font-size: 24px;
+  gap: 18px;
+}
+.header img{
+  filter: invert(1);
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+.SearchInput-contianer input{
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  color: black;
+  padding-right: 40px;
+}
+.input-section{
+  display: flex;
+  position: relative;
+}
+.input-section img{
+  object-fit: contain;
+  
+}
+.input-section  button{
+  background-color: transparent;
+  border: none;
+  opacity: 0.3;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+}
+.input-section  button:hover{
+  opacity: 1;
+}

@@ -1,0 +1,16 @@
+.contianer{
+  width: 100%;
+ 
+}
+
+.search-contianer{
+  display: flex;
+  /* justify-content: space-between; */
+  background-color: rgba(8, 8, 8, 0.301);
+  margin: 10px 0px 10px ;
+  border-radius: 4px;
+  padding: 10px;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-size: 16px;
+  gap: 20px;
+}
