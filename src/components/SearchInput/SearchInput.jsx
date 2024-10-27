@@ -1,7 +1,7 @@
 import'./SearchInput.css'
 import closeIcon from '../../assets/closeIcon.svg'
 
-export const SearchInput=({userInput , handleInput})=>{
+export const SearchInput=({userInput , handleInput , clearAll})=>{
 
   
 
@@ -10,7 +10,7 @@ export const SearchInput=({userInput , handleInput})=>{
       <input placeholder='Enter the Name ...' value={userInput} onChange={handleInput}/>
       {userInput && 
 
-       <button className='close-icon'> 
+       <button className='close-icon' onClick={clearAll}> 
         
           <img src={closeIcon} alt="" width='32px' height='32px' />
        
