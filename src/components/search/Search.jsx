@@ -60,7 +60,7 @@ export const Search =()=>{
                   {name}
                 </div>
 
-                            
+             
               ))}
            
           </div>
