@@ -1,3 +1,6 @@
+Created a Search Component with a filtering features locally using a useState and debouncing technique.
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
