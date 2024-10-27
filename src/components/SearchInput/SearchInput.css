@@ -1,5 +1,6 @@
 .search-input-section{
   position: relative;
+  min-width: 400px;
 }
 
 input{
@@ -7,7 +8,7 @@ input{
   width: 100%;
   border-radius: 6px;
   border: none;
-  min-width: 400px;
+  
   font-size: 16px;
   padding-right: 30px;
   
@@ -18,4 +19,10 @@ input{
   right: 4px;
   background-color: transparent;
   border: none;
+}
+
+@media screen and (min-width : 320px)  and (max-width : 425px){
+  .search-input-section{
+    min-width: 200px;
+  }
 }
