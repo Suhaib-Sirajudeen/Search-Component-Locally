@@ -1,3 +1,7 @@
+.search-input-section{
+  position: relative;
+}
+
 input{
   padding: 15px 20px;
   width: 100%;
@@ -5,4 +9,13 @@ input{
   border: none;
   min-width: 400px;
   font-size: 16px;
+  padding-right: 30px;
+  
+}
+.close-icon{
+  position: absolute;
+  top: 8px;
+  right: 4px;
+  background-color: transparent;
+  border: none;
 }
